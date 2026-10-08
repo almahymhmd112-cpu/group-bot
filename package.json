@@ -1,9 +1,12 @@
 {
-  "name":"group-admin-bot",
-  "version":"1.0.0",
-  "description":"WhatsApp group moderation bot for GitHub + Railway",
-  "main":"index.js",
-  "scripts":{"start":"node index.js"},
-  "engines":{"node":">=20"},
-  "dependencies":{"@whiskeysockets/baileys":"^6.7.20","pino":"^9.3.2","qrcode-terminal":"^0.12.0","sharp":"^0.33.5"}
+  "name": "group-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.9",
+    "pino": "^9.0.0"
+  }
 }
